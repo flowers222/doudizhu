@@ -1,0 +1,66 @@
+﻿生成启动时间为 2017/4/12 9:57:27。
+     1>项目“C:\Users\asus\Desktop\DDZ\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (8_19.vcxproj, Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\VS2013_RTM_ULT_CHS\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include" /I"E:\DouDiZhu\TestFile\gabime-spdlog-4fcde3b\include\spdlog" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BoardMessageControl.cpp CallNum.cpp CardsInfo.cpp CardsValue.cpp DouDzMain.cpp MonteCarloSearchEngine.cpp PokerModelAnalysis.cpp RecommendCards.cpp SplitCard.cpp
+         SplitCard.cpp
+         RecommendCards.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: “__useHeader”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2886) : 参见“__useHeader”的前一个定义
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: “__on_failure”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2896) : 参见“__on_failure”的前一个定义
+     1>c:\users\asus\desktop\ddz\project1\recommendcards.cpp(687): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 c:\users\asus\desktop\ddz\project1\recommendcards.cpp(620) : 忽略“i”的定义
+                 c:\users\asus\desktop\ddz\project1\recommendcards.cpp(345) : 使用“i”的定义
+     1>c:\users\asus\desktop\ddz\project1\recommendcards.cpp(782): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\asus\desktop\ddz\project1\recommendcards.cpp(1301): warning C4101: “dan”: 未引用的局部变量
+     1>c:\users\asus\desktop\ddz\project1\recommendcards.cpp(1574): warning C4101: “iTemp”: 未引用的局部变量
+     1>c:\users\asus\desktop\ddz\project1\recommendcards.cpp(1574): warning C4101: “k”: 未引用的局部变量
+     1>c:\users\asus\desktop\ddz\project1\recommendcards.cpp(1574): warning C4101: “j”: 未引用的局部变量
+     1>c:\users\asus\desktop\ddz\project1\recommendcards.cpp(1688): warning C4101: “iTmpCards”: 未引用的局部变量
+     1>c:\users\asus\desktop\ddz\project1\recommendcards.cpp(1689): warning C4101: “iTypeCount”: 未引用的局部变量
+         PokerModelAnalysis.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: “__useHeader”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2886) : 参见“__useHeader”的前一个定义
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: “__on_failure”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2896) : 参见“__on_failure”的前一个定义
+         MonteCarloSearchEngine.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: “__useHeader”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2886) : 参见“__useHeader”的前一个定义
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: “__on_failure”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2896) : 参见“__on_failure”的前一个定义
+     1>c:\users\asus\desktop\ddz\project1\montecarlosearchengine.cpp(439): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         DouDzMain.cpp
+     1>c:\users\asus\desktop\ddz\project1\ddz.h(4): warning C4005: “kPlayerName”: 宏重定义
+                 c:\users\asus\desktop\ddz\project1\doudzmain.cpp(1) : 参见“kPlayerName”的前一个定义
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: “__useHeader”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2886) : 参见“__useHeader”的前一个定义
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: “__on_failure”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2896) : 参见“__on_failure”的前一个定义
+         CardsValue.cpp
+         CardsInfo.cpp
+         CallNum.cpp
+         BoardMessageControl.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\sal_supp.h(57): warning C4005: “__useHeader”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2886) : 参见“__useHeader”的前一个定义
+     1>c:\program files (x86)\microsoft sdks\windows\v7.1a\include\specstrings_supp.h(77): warning C4005: “__on_failure”: 宏重定义
+                 d:\vs2013_rtm_ult_chs\vc\include\sal.h(2896) : 参见“__on_failure”的前一个定义
+     1>c:\users\asus\desktop\ddz\project1\boardmessagecontrol.cpp(514): warning C4101: “i”: 未引用的局部变量
+     1>c:\users\asus\desktop\ddz\project1\boardmessagecontrol.cpp(514): warning C4101: “k”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         D:\VS2013_RTM_ULT_CHS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\asus\Desktop\DDZ\Debug\OKDouDiZhu.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\asus\Desktop\DDZ\Debug\OKDouDiZhu.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\asus\Desktop\DDZ\Debug\OKDouDiZhu.lib" /MACHINE:X86 Debug\BoardMessageControl.obj
+         Debug\CallNum.obj
+         Debug\CardsInfo.obj
+         Debug\CardsValue.obj
+         Debug\DouDzMain.obj
+         Debug\MonteCarloSearchEngine.obj
+         Debug\PokerModelAnalysis.obj
+         Debug\RecommendCards.obj
+         Debug\SplitCard.obj
+         Project1.vcxproj -> C:\Users\asus\Desktop\DDZ\Debug\OKDouDiZhu.exe
+     1>已完成生成项目“C:\Users\asus\Desktop\DDZ\Project1\Project1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:27.03
